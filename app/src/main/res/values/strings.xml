@@ -1,0 +1,9 @@
+<resources>
+    <string name="hello">Hello World, Playing Audio!</string>
+    <string name="app_name">Latihan</string>
+    <string name="perintah">Masukkan minimal 3 huruf</string>
+    <string name="toastBtn">Panggil Toast</string>
+    <string name="exitBtn">Keluar Applikasi</string>
+    <string name="listDialogBtn">Panggil List Dialog</string>
+    <string name="checkBox">checkBox ini : Tidak Dicentang!</string>
+</resources>

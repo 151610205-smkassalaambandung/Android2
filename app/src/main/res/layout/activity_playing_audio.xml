@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_playing_audio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="assalaam.test2.id.belajarautocomplete.playingAudio"
+    android:weightSum="1">
+
+
+    <TextView
+        android:textSize="15px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="Memainkan Musik"></TextView>
+
+    <TextView
+        android:text=""
+        android:id="@+id/ket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15px"></TextView>
+
+    <ImageButton
+        android:id="@+id/putarMusik"
+        android:layout_height="75dp"
+        android:adjustViewBounds="false"
+        android:src="@drawable/play"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_width="111dp"
+        android:layout_weight="0.09"></ImageButton>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="PAUSE"
+        android:id="@+id/btnPAUSE"
+        android:layout_alignTop="@+id/btnPLAY"
+        android:layout_centerHorizontal="true" >
+        </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        android:id="@+id/btnSTOP"
+        android:layout_alignTop="@+id/btnPAUSE"
+        android:layout_toRightOf="@+id/btnPAUSE"
+        android:layout_toEndOf="@+id/btnPAUSE" >
+        </Button>
+
+</LinearLayout>
